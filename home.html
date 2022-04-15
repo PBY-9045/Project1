@@ -1,0 +1,220 @@
+
+<html>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 97, 126);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(31, 127, 190);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: #037abe;
+  padding: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: powderblue;;
+  height: 300px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: rgb(31, 127, 190);
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+<body style="background-color:powderblue;">
+
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="branches.html">Notices / Announcements</a>
+  <div class="dropdown">
+    <button class="dropbtn">Clubs / Associations
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="header">
+        <center><h2>All Clubs and Accosiations Join Link</h2></center>
+      </div>   
+      <div class="row">
+        <div class="column">
+          <h3>Clubs Join Link</h3>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe8JZ4P218ZQ0wKC9PR-I-tbPf-OUNHoOndaH6qbNDpRY1-FA/viewform?usp=sf_link">Dance And Dramatics</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScZ0PzYz9MasZ2jZHNBLVwZz5fhWaRZnYhnmql1IIRG0m9yIA/viewform?usp=sf_link">Literacy and Debating</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFagUiMIOa9Y0AvrR6SYXlTO9D7AakLrEnfvsaheaKQi4ZSQ/viewform?usp=sf_link">Music Club</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFagUiMIOa9Y0AvrR6SYXlTO9D7AakLrEnfvsaheaKQi4ZSQ/viewform?usp=sf_link">Photography Club</a>
+          </div>
+        <div class="column">
+          <h3>Sports Clubs Join Link</h3>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOKPwbl9i4ogzepcFL5VSLibFArp4Wmmmh7CwbEWiNh9_8xA/viewform?usp=sf_link">Cricket Club</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1Y1jQ_hzNNI6X04yNx9079l16ndfXj0Ipimr7O8NXDuZa4A/viewform?usp=sf_link">Football Club</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScMA3-yCUWuyosqs4LZAJO_ft7an8qAzBnRyFYr1EEhhIACvQ/viewform?usp=sf_link">Atheletics</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTcKjFOggi0wF5fHWxGa4ASbRcJodc04q3nScae2PhpbjhLg/viewform?usp=sf_link">Chess</a>
+        </div>
+        <div class="column">
+          <h3>Associations Join Link</h3>
+          <a href="#">CEA</a>
+          <a href="#">CSEA</a>
+          <a href="#">ECEA</a>
+          <a href="#">EEA</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+</body>
+        <div >
+       <center><u><h1>Welcome to Official Notification portal of NITW</h1></u>  <br>
+       <img src="../images/nitwlogo.png" alt="Nitw-logo" width="180" height="200">
+    <div class="nitwtext">   <h4><b>NITW</b></h4></div>   
+      <button class="button button1"onclick="document.location='branches.html'">..Explore..</button>
+    </center>
+ </div>  
+  <style>
+
+
+    h1{
+      font-size: 200%;
+      }         
+    h4 {
+      font-size: 400%;
+   }
+      
+   
+.topnav {
+  overflow: hidden;
+  background-color: rgb(68, 167, 233);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #037abe;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #037abe;
+  color: white;
+}
+
+  .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: powderblue;
+  color: black; 
+  border: 2px solid #037abe;
+  position:relative;
+  margin-top: -60px;
+}
+
+.button1:hover {
+  background-color: #037abe;
+  color: white;
+}
+.nitwtext{
+  position:relative;
+  margin-top: -60px;
+}
+
+ </style>
+</body>
+</html>
