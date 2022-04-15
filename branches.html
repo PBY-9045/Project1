@@ -180,7 +180,7 @@
 <h3 style="text-align: center;">Biotechnology</h3>
 <hr  size="6">
 <div class="innertab ">
-    <button class="innertablinks" onclick="openinnerTab(event, 'B.tech (Biotech.)')" id="defaultOpen">B.tech (Biotech.)</button>
+    <button class="innertablinks" onclick="openinnerTab(event, 'B.tech (Biotech.)')" id="indefaultOpen">B.tech (Biotech.)</button>
     <button class="innertablinks" onclick="openinnerTab(event, 'M.tech (Biotech.)')">M.tech (Biotech.)</button>
     <button class="innertablinks" onclick="openinnerTab(event, 'Phd (Biotech.)')">Phd (Biotech.)</button>
   </div>
@@ -1717,7 +1717,7 @@ function openinnerTab(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
+document.getElementById("indefaultOpen").click();
 </script>
 <style>
   
